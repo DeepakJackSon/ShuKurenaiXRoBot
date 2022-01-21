@@ -37,7 +37,7 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
-LOGGER = logging.getLogger('[EmikoRobot]')
+LOGGER = logging.getLogger('[ShuKurenaiXRoBot]')
 LOGGER.info("Shu Kurenai is starting. | An Shukurenai007 Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/shukurenai007 (t.me/DeepakJack007)")
