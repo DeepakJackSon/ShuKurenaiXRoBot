@@ -16,7 +16,7 @@ Shu4 = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
 @register(pattern="/myinfo")
 async def proboyx(event):
   button = [[custom.Button.inline("CHECK",data="information")]]
-  on = await aasf.send_message(event.chat, f"**❦ Hᴇʏ {(event.sender.first_name)}**\n\n**❦ I Aᴍ [Yuriko](https://t.me/YurikoRobot)**\n**❦ I Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ [DeeCoDeBots](t.me/DeeCoDeBots)**", file=yuriko1, buttons=button)
+  on = await aasf.send_message(event.chat, f"**❦ Hᴇʏ {(event.sender.first_name)}**\n\n**❦ I Aᴍ [ShuKurenai](https://t.me/ShuKurenaiXRoBot)**\n**❦ I Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ [ShuKurenaiTeam](t.me/shukurenai007)**", file=Shu1, buttons=button)
 
   await asyncio.sleep(edit_time)
   ok = await aasf.edit_message(event.chat_id, on, file=Shu2, buttons=button) 
