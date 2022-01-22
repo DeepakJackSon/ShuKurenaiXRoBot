@@ -13,14 +13,14 @@ SHU1 = ( "https://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg",
       "https://telegra.ph/file/2861eda5afba02bf04254.jpg", 
       "https://telegra.ph//file/f218b08b076fa31df028b.jpg", 
       "https://telegra.ph//file/75280e721b12b8b4a18a4.jpg", 
-      "
-      "
-
-
-
-
-
-SHU2 = "
+      "https://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg", 
+      "https://telegra.ph/file/e384ab52db8c0912ca356.jpg", 
+      "https://telegra.ph/file/0adf9e97735ba8a420973.jpg"  
+      "https://telegra.ph/file/2861eda5afba02bf04254.jpg", 
+      "https://telegra.ph//file/75280e721b12b8b4a18a4.jpg", 
+      "https://telegra.ph//file/8cddbaed2a1718c935f83.jpg", 
+      ) 
+SHU2 = "https://telegra.ph//file/1247053aadf93e8e371a2.jpg"
 
 @register(pattern="/feedback ?(.*)")
 async def feedback(e):
