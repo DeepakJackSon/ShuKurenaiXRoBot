@@ -113,7 +113,7 @@ __mod_name__ = "Tag all"
 __help__ = """
 ──「 Mention all func 」──
 
-Emiko Can Be a Mention Bot for your group.
+Shu Kurenai Can Be a Mention Bot for your group.
 
 Only admins can tag all.  here is a list of commands
 
