@@ -8,10 +8,10 @@ from ShuKurenaiXRoBot import telethn as aasf
 from ShuKurenaiXRoBot.events import register 
 
 edit_time = 5
-Shu1 = "https://telegra.ph/file/5856563ade3824b4db8c2.jpg"
-Shu2 = "https://telegra.ph/file/4900aa9aaf9d00959c483.jpg"
-Shu3 = "https://telegra.ph/file/34d25026743628907a5be.jpg"
-Shu4 = "https://telegra.ph/file/be79f8ea71eb69a8f8515.jpg"
+Shu1 = "http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg"
+Shu2 = "http://telegra.ph/file/e384ab52db8c0912ca356.jpg"
+Shu3 = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
+Shu4 = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
 
 @register(pattern="/myinfo")
 async def proboyx(event):
