@@ -99,11 +99,17 @@ buttons = [
         InlineKeyboardButton(text="About", callback_data="shukurenai_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
-        ),
+        InlineKeyboardButton(text="Help",url="https://t.me/ShuKurenaiXRoBot?start=help"),   
     ],
+    [                  
+                       InlineKeyboardButton(
+                             text="Support🚑",
+                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(
+                             text="Updates🛰️",
+                             url=f"https://t.me/shukurenai007"),
+    ],
+
 ]
 
 
@@ -394,6 +400,7 @@ def shukurenai_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Source Code", url="https://github.com/shukurenai007/ShuKurenaiXRoBot"),
+                    InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""), 
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_back"),
