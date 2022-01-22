@@ -8,7 +8,7 @@ from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
 shu = "SHU"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=miku)
+r = telegraph.create_account(short_name=shu)
 auth_url = r["auth_url"]
 
 
