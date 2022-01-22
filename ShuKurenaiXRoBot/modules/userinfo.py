@@ -41,6 +41,7 @@ from ShuKurenaiXRoBot.modules.sql.users_sql import get_user_num_chats
 from ShuKurenaiXRoBot.modules.helper_funcs.chat_status import sudo_plus
 from ShuKurenaiXRoBot.modules.helper_funcs.extraction import extract_user
 from ShuKurenaiXRoBot import telethn
+from ShuKurenaiXRoBot import SUPPORT_CHAT
 
 SHU = "https://telegra.ph//file/1247053aadf93e8e371a2.jpg"
 
@@ -451,13 +452,20 @@ def stats(update: Update, context: CallbackContext):
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     result += "\n<b>╘═━「 Powered By ShuKurenaiSupport」</b>"
     update.effective_message.reply_photo(
-        SHU, 
-        result,
-        parse_mode=ParseMode.HTML, 
-        disable_web_page_preview=True
-   )
-        
-        
+        SHU,caption=result, 
+        reply_markup=InlineKeyboardMarkup(
+                    [
+                        [
+                            InlineKeyboardButton(
+                                "Support", url=f"https://t.me/{SUPPORT_CHAT}"),
+                            InlineKeyboardButton(
+                                "Updates", url=f"https://t.me/shukurenai007")
+                        ],
+                    ]
+                ),
+                parse_mode=ParseMode.HTML,
+            )
+               
 def about_bio(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
     message = update.effective_message
