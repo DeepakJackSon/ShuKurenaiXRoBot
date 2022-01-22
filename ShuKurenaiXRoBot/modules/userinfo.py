@@ -42,6 +42,8 @@ from ShuKurenaiXRoBot.modules.helper_funcs.chat_status import sudo_plus
 from ShuKurenaiXRoBot.modules.helper_funcs.extraction import extract_user
 from ShuKurenaiXRoBot import telethn
 
+SHU = "https://telegra.ph//file/1247053aadf93e8e371a2.jpg"
+
 def no_by_per(totalhp, percentage):
     """
     rtype: num of `percentage` from total
@@ -448,7 +450,8 @@ def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current ShuKurenai Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     result += "\n<b>╘═━「 Powered By ShuKurenaiSupport」</b>"
-    update.effective_message.reply_text(
+    update.effective_message.reply_photo(
+        SHU, 
         result,
         parse_mode=ParseMode.HTML, 
         disable_web_page_preview=True
