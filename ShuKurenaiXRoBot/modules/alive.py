@@ -12,6 +12,7 @@ from telethon import events, Button, custom, version
 from ShuKurenaiXRoBot.events import register
 from ShuKurenaiXRoBot import telethn as borg, OWNER_ID
 from ShuKurenaiXRoBot import StartTime, dispatcher
+from ShuKurenaiXRoBot import SUPPORT_CHAT
 from telethon.tl.types import ChannelParticipantsAdmins
 from pyrogram import __version__ as pyro
 
@@ -59,7 +60,7 @@ async def hmm(yes):
     Shu += f"♡ **Python Telegram Bot Version** ~♪ `{telegram.__version__}`\n\n"
     Shu += f"♡ **Pyrogram Version** ~♪ `{pyro}`\n\n"
     Shu += f"♡ **My Master** ~♪ [DeepakJack](tg://user?id={OWNER_ID})"
-    BUTTON = [[Button.url("Support Chat", "https://t.me/Support"), Button.url("Updates Channel", "https://t.me/shukurenai007")]]
+    BUTTON = [[Button.url("Support Chat", f"https://t.me/{SUPPORT_CHAT}"), Button.url("Updates Channel", "https://t.me/shukurenai007")]]
     on = await borg.send_file(yes.chat_id, file=file2,caption=Shu, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
