@@ -59,4 +59,7 @@ async def feedback(e):
     )
     await e.reply(TEXT, file=random.choice(NATSUNAGI), buttons=BUTTON)
 
-__Mod
+__help__ = 
+
+
+__mod_name__ =
