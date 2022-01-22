@@ -55,8 +55,3 @@ async def feedback(e):
         link_preview=False,
     )
     await e.reply(TEXT, file=random.choice(SHU1), buttons=BUTTON)
-
-__help__ = 
-
-
-__mod_name__ =
