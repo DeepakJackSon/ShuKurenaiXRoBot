@@ -44,7 +44,7 @@ async def feedback(e):
             GIVE,
             parse_mode=ParseMode.MARKDOWN,
             buttons=BUTTON,
-            file=random.choice(SHU2),
+            file=SHU2,
         ),
         return
 
