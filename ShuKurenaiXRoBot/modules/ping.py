@@ -78,13 +78,14 @@ def ping(update: Update, context: CallbackContext):
     end_time = time.time()
     telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
     uptime = get_readable_time((time.time() - StartTime))
-
-    message.edit_text(
-        "<b>PONG</b> ✨\n"
-        "<b>Time Taken:</b> <code>{}</code>\n"
-        "<b>Service Uptime:</b> <code>{}</code>".format(telegram_ping, uptime),
-        parse_mode=ParseMode.HTML,
-    )
+    text = f""" 
+           <b>PONG!!</b>\n<b>Time Taken:</b> <code>{telegram_ping}</code>\n<b>Service uptime:</b> <code>{uptime}</code>
+           """
+      
+    update.effective_message.reply_photo(
+       PING_IMG, caption=reply_msg,
+       parse_mode=ParseMode.HTML,
+    ) 
 
 
 @sudo_plus
@@ -98,8 +99,8 @@ def pingall(update: Update, context: CallbackContext):
     reply_msg += "\n".join(pinged_list)
     reply_msg += "\n<b>Service uptime:</b> <code>{}</code>".format(uptime)
 
-    update.effective_message.reply_text(
-        reply_msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
+    update.effective_message.reply_photo(
+      PING_IMG, reply_msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
     )
 
 
