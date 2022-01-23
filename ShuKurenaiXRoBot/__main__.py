@@ -114,13 +114,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command."""
+Click on the button bellow to get description about specifics command[.](http://telegra.ph/file/e384ab52db8c0912ca356.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **@shukurenai007bot**"""
 HELP_IMG = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
 GROUP_IMG = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
-HELP_STRINGS_IMG = "http://telegra.ph/file/e384ab52db8c0912ca356.jpg"
+
 
 
 IMPORTED = {}
@@ -339,7 +339,6 @@ def help_button(update, context):
         elif prev_match:
             curr_page = int(prev_match.group(1))
             query.message.edit_text(
-                photo=HELP_STRINGS_IMG, 
                 text=HELP_STRINGS,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
@@ -350,7 +349,6 @@ def help_button(update, context):
         elif next_match:
             next_page = int(next_match.group(1))
             query.message.edit_text(
-                photo=HELP_STRINGS_IMG, 
                 text=HELP_STRINGS,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
@@ -360,7 +358,6 @@ def help_button(update, context):
 
         elif back_match:
             query.message.edit_text(
-                photo=HELP_STRINGS_IMG, 
                 text=HELP_STRINGS,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
