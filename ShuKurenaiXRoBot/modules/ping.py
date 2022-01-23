@@ -18,7 +18,7 @@ from telegram.ext import (
     MessageHandler,
 )
 
-from ShuKurenaiXRoBot import StartTime, dispatcher, pgram as tomori
+from ShuKurenaiXRoBot import StartTime, dispatcher, pbot as tomori
 from pyrogram import filters
 from ShuKurenaiXRoBot.modules.disable import DisableAbleCommandHandler
 
