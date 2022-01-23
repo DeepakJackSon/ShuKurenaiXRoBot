@@ -7,7 +7,7 @@ import time
 import psutil
 from pyrogram import filters
 
-from ShuKurenaiXRoBot import (StartTime, DEV_USERS, pgram)
+from ShuKurenaiXRoBot import (StartTime, DEV_USERS, pbot)
 import ShuKurenaiXRoBot.utils.formatter as formatter
 import ShuKurenaiXRoBot.modules.sql.users_sql as sql
 
