@@ -83,7 +83,7 @@ def ping(update: Update, context: CallbackContext):
            """
       
     update.effective_message.reply_photo(
-       PING_IMG, caption=reply_msg,
+       PING_IMG, caption=text,
        parse_mode=ParseMode.HTML,
     ) 
 
@@ -100,7 +100,7 @@ def pingall(update: Update, context: CallbackContext):
     reply_msg += "\n<b>Service uptime:</b> <code>{}</code>".format(uptime)
 
     update.effective_message.reply_photo(
-      PING_IMG, reply_msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
+      PING_IMG, caption=reply_msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
     )
 
 
