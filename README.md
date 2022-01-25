@@ -44,3 +44,4 @@ This Bot is Created by shukurenai007, If your kanging this without fork at least
 
 • [Kishore](https://github.com/AASFCYBERKING)
 
+• [Nandha](https://github.com/Ctzfamily)
