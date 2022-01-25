@@ -96,10 +96,12 @@ buttons = [
             text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/ShuKurenaiXRoBot?startgroup=new"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="shukurenai_"),
-    ],
-    [
-        InlineKeyboardButton(text="Help",url="https://t.me/ShuKurenaiXRoBot?start=help"),   
+        InlineKeyboardButton(
+              text="Help",
+              url="https://t.me/ShuKurenaiXRoBot?start=help"),
+        InlineKeyboardButton(
+              text="About",
+              callback_data="shukurenai_"),   
     ],
     [                  
                        InlineKeyboardButton(
