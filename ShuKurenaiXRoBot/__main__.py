@@ -483,6 +483,7 @@ def shukurenai_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="DeepakJack", url="https://github.com/DeepakJack007"),
                     InlineKeyboardButton(text="Kishore", url="https://github.com/AASFCYBERKING"),
+                    InlineKeyboardButton(text="Nandha", url="https://github.com/Ctzfamily"), 
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
