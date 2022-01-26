@@ -41,7 +41,7 @@ This Bot is Created by shukurenai007, If your kanging this without fork at least
 
 ## Credit 
 
-• [DeepakJack](https://github.com/DeepakJack007)``Dev``
+• [DeepakJack](https://github.com/DeepakJack007)
 
 • [Kishore](https://github.com/AASFCYBERKING)``Dev``
 
