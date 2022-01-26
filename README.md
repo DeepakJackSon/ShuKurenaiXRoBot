@@ -2,7 +2,7 @@
   <img src="http://telegra.ph/file/0adf9e97735ba8a420973.jpg">
 </p>
 
-<h4><p align="center"> ShuKurenaiXRoBot </p></h4>
+<h4><p align="center"> 𝐒𝐡𝐮𝐊𝐮𝐫𝐞𝐧𝐚𝐢𝐗𝐑𝐨𝐁𝐨𝐭 </p></h4>
 
 <p align="center">ShuKurenaiXRoBot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
