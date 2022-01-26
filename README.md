@@ -24,6 +24,7 @@
 ```
 This Bot is Created by shukurenai007, If your kanging this without fork at least give a credit to get a smile of my hard work. 
 - ShuKurenaiXRoBot
+- EmikoRobot
 - YoneRobot
 - SaitamaRobot 
 - TheRealPhoenixBot
