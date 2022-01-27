@@ -16,11 +16,11 @@ from telethon.tl.types import (
 )
 from telethon.utils import is_image, is_video
 
-from ShuKurenaiXRoBot.events import register as tomori
+from ShuKurenaiXRoBot.events import register
 
 
 
-@tomori(pattern="^/whatanime(.*)")
+@register(pattern="^/whatanime(.*)")
 async def whatanime(e):
     media = e.media
     if not media:
