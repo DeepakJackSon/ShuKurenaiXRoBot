@@ -98,7 +98,7 @@ buttons = [
     [
         InlineKeyboardButton(
               text="Help",
-              url="https://t.me/ShuKurenaiXRoBot?start=help"),
+              callback_data="help_back"),
         InlineKeyboardButton(
               text="About",
               callback_data="shukurenai_"),   
