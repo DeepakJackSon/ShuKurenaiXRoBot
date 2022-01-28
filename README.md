@@ -21,19 +21,6 @@
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/shukurenai007/ShuKurenaiXRoBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-
-## ✨ Deploy to Railway ✨
-
-## Edit A ShuKurenaiXRoBot/Config.py in
-- `OWNER_ID`|`OWNER_USERNAME`
-- `API_ID`| `API_HARISH`|
-- `TOKEN`| NOW BOT RUNS RAILWAY!
-- FORK ON DEPLOY
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fshukurenai007%2FShuKurenaiXRoBot&referralCode=Shukurenai007)
-
-## `SQLALCHEMY_DATABASE_URI` | MOST USE OLD USE
-
 ```
 This Bot is Created by shukurenai007, If your kanging this without fork at least give a credit to get a smile of my hard work. 
 - ShuKurenaiXRoBot
