@@ -129,7 +129,7 @@
       "ERROR_LOG": {
          "description": "ID of log for show error.",
          "required": false,
-         "value": ""
+         "value": "-1001747988223"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
