@@ -118,7 +118,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command[.](http://telegra.ph/file/e384ab52db8c0912ca356.jpg)"""
 
-HELP_MSG = "Click the button below to get help manu in your pm."
+HELP_MSG = "Click the button below to get help Menu in your pm."
 DONATE_STRING = """Contact to **@AstaSilva02**"""
 GROUP_IMG = "https://telegra.ph/file/2521a46489021bab6758a.jpg"
 
