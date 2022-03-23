@@ -476,7 +476,7 @@ def shukurenai_about_callback(update, context):
     elif query.data == "shukurenai_credit":
         query.message.edit_text(
             text=f"๏ Credis for Yami Bot \n"
-            "\nHere Developers Making And Give Inspiration For Made The ShuKurenaiXRoBot",
+            "\nHere Developers Making And Give Inspiration For Made The Yami",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
