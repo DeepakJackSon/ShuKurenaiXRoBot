@@ -120,7 +120,7 @@ Click on the button bellow to get description about specifics command[.](http://
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **@AstaSilva02**"""
-HELP_IMG = "https://telegra.ph/file/2521a46489021bab6758a.jpg"
+HELPS_IMG = "https://telegra.ph/file/2521a46489021bab6758a.jpg"
 GROUP_IMG = "https://telegra.ph/file/2521a46489021bab6758a.jpg"
 
 
@@ -556,7 +556,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_photo(
-            HELP_IMG, HELP_MSG, 
+            HELPS_IMG, HELP_MSG, 
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
