@@ -319,7 +319,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1151132400:
-         text += "\n\nOwner Of A Bot. Queen Of @ShuKurenaiXRoBot. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of A Bot. Queen Of @Nobody. Bot Name Inspired From 'JoJo'."
          disaster_level_present = True
 
     try:
@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "Health", url="https://t.me/Marin_updates"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "Disaster", url="https://t.me/Marin_Updates")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "Health", url="https://t.me/Marin_Updates"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "Disaster", url="https://t.me/Marin_Updates")
                         ],
                     ]
                 ),
@@ -448,9 +448,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current ShuKurenai Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current YAMI Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By ShuKurenaiSupport」</b>"
+    result += "\n<b>╘═━「 Powered By @AkatSuki_Network And @Hokage_Network </b>"
     update.effective_message.reply_photo(
         SHU,caption=result, 
         reply_markup=InlineKeyboardMarkup(
@@ -459,7 +459,7 @@ def stats(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 "Support", url=f"https://t.me/{SUPPORT_CHAT}"),
                             InlineKeyboardButton(
-                                "Updates", url=f"https://t.me/shukurenai007")
+                                "Owner", url=f"https://t.me/astasilva02")
                         ],
                     ]
                 ),
