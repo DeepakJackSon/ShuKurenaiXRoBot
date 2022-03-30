@@ -31,22 +31,22 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": " 5248305032:AAFNhyEr_43Zag2dubRH6EudtQR-i590_3w"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "16409691"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "a60b42fe202a7ffbb97043df46901227"
       },    
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1151132400"
+         "value": "5053846242"
      },
 
       "STRING_SESSION": {
@@ -56,7 +56,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": " b8a15578-e662-4684-a2a3-e60a18299824"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
@@ -64,27 +64,27 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "ShuKurenaiXRoBot"
+         "value": "Yami_Sukehiro_Probot"
       },
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": ""
+         "value": "5248305032"
       },
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "DeepakJack007"
+         "value": "astasilva02"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "ShuKurenaiSupport"
+         "value": "Marin_Support"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://devildb:devildb@cluster0.fvjsj.mongodb.net/Cluster0?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -97,22 +97,22 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001621342394"
+         "value": "-1001747988223"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001621342394"
+         "value": "-1001747988223"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "-xyz"
+         "value": "4K5NXNGAJW9RP21Y"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "-xyz"
+         "value": "1WNTS9XB1BRV"
      }, 
 
       "OPENWEATHERMAP_ID": {
@@ -124,12 +124,12 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "5053846242"
      },
       "ERROR_LOG": {
          "description": "ID of log for show error.",
          "required": false,
-         "value": ""
+         "value": "-1001747988223"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
@@ -139,7 +139,7 @@
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": " tA5nqHFn9gjAKqnawhsuw0so9_z1BJ4uog4fB65h2r_L68rWHqqKT63ofObVBgmR"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -148,7 +148,7 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "1693308160"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
