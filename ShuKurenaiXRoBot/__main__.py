@@ -122,6 +122,7 @@ HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **@shukurenai007bot**"""
 HELP_IMG = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
 GROUP_IMG = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
+ALIVE_IMG = "http://telegra.ph/file/ff558497b647d265ef029.jpg"
 
 
 
@@ -801,7 +802,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞](http://telegra.ph/file/ff558497b647d265ef029.jpg)", parse_mode=ParseMode.MARKDOWN,
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞]({ALIVE_IMG})", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
